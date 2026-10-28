@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_main">#07070F</color>
+    <color name="surface">#0F0F1C</color>
+    <color name="surface2">#16162A</color>
+    <color name="surface3">#1E1E35</color>
+    <color name="primary">#7C3AED</color>
+    <color name="primary_glow">#A855F7</color>
+    <color name="accent_star">#F59E0B</color>
+    <color name="owner_green">#10B981</color>
+    <color name="owner_green_bg">#1410B981</color>
+    <color name="non_owner_blue">#3B82F6</color>
+    <color name="non_owner_blue_bg">#143B82F6</color>
+    <color name="danger_red">#EF4444</color>
+    <color name="text_primary">#EEEEFF</color>
+    <color name="text_secondary">#B0B0D0</color>
+    <color name="text_muted">#7878A0</color>
+    <color name="border_subtle">#1F7878B4</color>
+    <color name="white">#FFFFFF</color>
+</resources>

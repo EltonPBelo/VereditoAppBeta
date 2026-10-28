@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph" app:startDestination="@id/feedFragment">
+    <fragment android:id="@+id/feedFragment" android:name="com.veredito.app.ui.feed.FeedFragment" />
+    <fragment android:id="@+id/searchFragment" android:name="com.veredito.app.ui.search.SearchFragment" />
+    <fragment android:id="@+id/createReviewFragment" android:name="com.veredito.app.ui.create.CreateReviewFragment" />
+    <fragment android:id="@+id/notificationsFragment" android:name="com.veredito.app.ui.notifications.NotificationsFragment" />
+    <fragment android:id="@+id/profileFragment" android:name="com.veredito.app.ui.profile.ProfileFragment" />
+    <fragment android:id="@+id/detailFragment" android:name="com.veredito.app.ui.detail.DetailFragment">
+        <argument android:name="reviewId" app:argType="integer" />
+    </fragment>
+</navigation>

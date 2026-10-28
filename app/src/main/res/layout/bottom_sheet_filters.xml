@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/surface" android:orientation="vertical" android:padding="20dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Filtros Avançados" android:textColor="@color/text_primary" android:textSize="18sp" android:textStyle="bold" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="NOTA MÍNIMA" android:textColor="@color/text_muted" android:textSize="11sp" android:textStyle="bold" />
+    <RadioGroup android:id="@+id/rg_min_rating" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:orientation="horizontal">
+        <RadioButton android:id="@+id/rb_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="Todos" android:textColor="@color/text_primary" />
+        <RadioButton android:id="@+id/rb_4stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="4★ ou mais" android:textColor="@color/accent_star" />
+        <RadioButton android:id="@+id/rb_5stars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Apenas 5★" android:textColor="@color/accent_star" />
+    </RadioGroup>
+    <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/sw_verified_only" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="true" android:text="✅ Apenas compradores verificados" android:textColor="@color/text_primary" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@+id/btn_apply_filters" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="20dp" android:background="@drawable/bg_gradient_primary" android:text="Aplicar Filtros" android:textAllCaps="false" android:textColor="@color/white" android:textStyle="bold" />
+</LinearLayout>
