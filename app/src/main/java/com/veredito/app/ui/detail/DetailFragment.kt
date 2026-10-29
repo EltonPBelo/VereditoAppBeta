@@ -57,7 +57,7 @@ class DetailFragment : Fragment() {
         }
     }
 
-    private fun renderReview(review: Review) = with(binding) {
+    private fun renderReview(review: Review): Unit = with(binding) {
         tvDetailTitle.text = review.product
         tvDetailBrand.text = review.brand
 
